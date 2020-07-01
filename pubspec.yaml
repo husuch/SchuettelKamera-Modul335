@@ -25,6 +25,8 @@ dependencies:
     sdk: flutter
   shake: ^0.1.0
   vibration: ^1.4.0
+  image_picker: ^0.6.7+2
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -34,6 +36,13 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.7.0"
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "ios/img/camera.png"
+  image_path_android: "android/app/img/camera.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
